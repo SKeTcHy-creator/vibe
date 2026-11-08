@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Посещение событий</title>
+  </head>
+  <body>
+    <div class="page">
+      <h1 id="event-title"></h1>
+      <p id="event-date"></p>
+      <p id="event-place"></p>
+      <p id="event-description"></p>
+      <button id="show-program" type="button">Показать программу</button>
+      <div id="program" hidden></div>
+
+      <form id="service-form">
+        <label>
+          <input id="guide" type="checkbox" />
+          Экскурсия с гидом
+        </label>
+        <label>
+          <input id="audio" type="checkbox" />
+          Аудиогид
+        </label>
+        <label>
+          <input id="catalog" type="checkbox" />
+          Каталог выставки
+        </label>
+        <button type="submit">Рассчитать</button>
+      </form>
+      <p id="choice-error" class="error" hidden>
+        Выберите хотя бы одну услугу.
+      </p>
+      <p id="data-error" class="error" hidden>Ошибка данных.</p>
+      <div id="result" hidden></div>
+      <p id="report-json" hidden></p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

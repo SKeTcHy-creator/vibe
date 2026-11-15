@@ -1,0 +1,27 @@
+
+body {
+  margin: 0;
+  padding: 48px 16px;
+  background: #eef2ff;
+  color: #172033;
+  font-family: Arial, sans-serif;
+}
+.report {
+  margin: 0 10px;
+  border: 2px solid #172033;
+  padding: 12px;
+}
+.summary {
+  margin: 0 10px;
+  border: 2px solid #172033;
+  border-radius: 18px;
+  padding: 12px;
+  background: #a5bcee;
+}
+.results {
+  margin: 10px 10px;
+  border: 2px solid #172033;
+  border-radius: 18px;
+  padding: 12px;
+  background: #a5eecc;
+}
